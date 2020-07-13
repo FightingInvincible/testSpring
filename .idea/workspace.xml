@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b6b0bbe-987d-4869-848d-3ae8b2280306" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/ch01/hello/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/ch01/hello/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/ch02/ref/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/ch02/ref/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/ch02/ref/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/ch03/prop/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/ch04/annotation/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/ch04/annotation/dao/DeptDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/ch04/annotation/entity/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/ch04/annotation/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/ch04/annotation/test/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/prop.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2b6b0bbe-987d-4869-848d-3ae8b2280306" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resources/annotation.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="66" lean-forward="true" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+            <state relative-caret-position="196">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -333,7 +314,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594616514535</updated>
-      <workItem from="1594616520632" duration="17204000" />
+      <workItem from="1594616520632" duration="17761000" />
     </task>
     <task id="LOCAL-00001" summary="完成Maven搭建">
       <created>1594617833015</created>
@@ -342,21 +323,29 @@
       <option name="project" value="LOCAL" />
       <updated>1594617833015</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成Spring IOC">
+      <created>1594634686454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594634686454</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17204000" />
+    <option name="totallyTimeSpent" value="17761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122654155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18699732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -388,7 +377,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成Maven搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成Maven搭建" />
+    <MESSAGE value="完成Spring IOC" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成Spring IOC" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tyy/ch01/hello/HelloWorld.java">
@@ -574,8 +564,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/annotation.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="66" lean-forward="true" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+        <state relative-caret-position="196">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
