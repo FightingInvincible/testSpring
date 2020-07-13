@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--
+        配置HelloWorld的bean实例  属性注入的方式setter
+        1.配置bean ： 通过无参构造方法实例化
+            id属性 唯一标识
+            class属性 全类名
+        2.配置property： 通过setXxx()赋值
+            name属性 给当前class指向的类中的哪一个属性赋值
+            value属性 赋值
+    -->
+    <bean id="h" class="com.tyy.ch01.hello.HelloWorld">
+        <property name="username" value="谭于映"></property>
+    </bean>
+    <bean id="person" class="com.tyy.ch02.ref.Person">
+        <property name="username" value="谭于映"></property>
+        <property name="age" value="21"></property>
+        <property name="car" ref="car"></property>
+<!--        级联操作-->
+        <property name="car.price" value="500000"></property>
+    </bean>
+    <bean id="car" class="com.tyy.ch02.ref.Car">
+        <property name="label" value="宝马"></property>
+        <property name="price" value="2263420"></property>
+    </bean>
+</beans>
