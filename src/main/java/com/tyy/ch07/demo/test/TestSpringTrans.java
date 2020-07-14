@@ -49,7 +49,8 @@ public class TestSpringTrans {
 
     @Test
     public void testCash() throws AccountException, BookStockException {
-        //可能会出现一种情况,当余额不足购买所有书时,会事务回滚,一本书都买不成功
+        //如果直接使用@Transactional 可能会出现一种情况,当余额不足购买所有书时,会事务回滚,一本书都买不成功
+        //如果要能买多少就买多少  重写事务管理
         cashierService.cash("张三", Arrays.asList(1,2));
     }
 
